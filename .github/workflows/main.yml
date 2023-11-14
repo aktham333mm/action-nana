@@ -21,7 +21,7 @@ jobs:
       
 
     - name: build and push docker image
-      uses: mr-smithers-excellent/docker-build-push@v6
+      uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: aktham3/nana-action
         registry: docker.io
